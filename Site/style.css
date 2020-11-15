@@ -1,0 +1,93 @@
+@font-face{
+    font-family: "SiteSemiBold";
+    src: url(Fonts/Montserrat-SemiBold.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+  font-family: "SiteLight";
+    src: url(Fonts/Montserrat-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;  
+}
+
+.fontYellow{
+   color: #fdeb71;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background:  url(Resources/BackGround.png);
+    background-size: 500px;
+}
+
+* font{    
+    font-family: "SiteSemiBold", sans-serif;
+    color: rgb(67,65,61);
+}
+
+#upHeader{
+    background: #fdeb71; /* Для старых браузров */
+    background: linear-gradient(to top right, #fdeb71, #f8d800);
+}
+
+#upHeaderContent{
+    padding: 3px;
+    font-size: 9pt; 
+}
+
+#location{
+    margin-left: 10px;
+    float: left; /*Задаем обтекание*/    
+}
+
+#call{
+    margin-right: 10px;
+    float: right; /*Задаем обтекание*/ 
+}
+
+#inHeaderLine{   
+   /* background-color: #faefc3; */
+}
+
+#downHeader{
+    background-color:white;
+}
+
+#downHeaderContent{
+    height: 100%;
+}
+
+#headerMenu {
+     
+}
+
+#searchField{
+    width: 85%;
+    height: 17px;
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    background: #fdeb71; /* Для старых браузров */
+    background: linear-gradient(to top right, #fdeb71, #f8d800);
+}
+
+#LaminateBanner{    
+    background: linear-gradient(to top right, #fdeb71, #f8d800);
+}
+
+#DoorsBanner{    
+    
+}
+
+#LaminateBannerContent{
+}
+
+#DoorsBannerContent{
+}
